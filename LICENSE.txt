@@ -1,0 +1,7 @@
+﻿License: Public Domain
+Warranty: None
+
+This software is released in the public domain and as such is provided
+	as is. There is no warranty. Use at your own risk, but do with it as
+	you please.  If derivative works are created, attribution is appreciated,
+	but not required.

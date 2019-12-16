@@ -1,0 +1,127 @@
+﻿/*   
+Theme Name: hackedtheme
+Theme URI: http://koljasagorski.de
+Description: a simple green "hacker"-Theme. Retro, oldskool. http://koljasagorski.de
+Author: Kolja Sagorski
+Author URI: http://koljasagorski.de
+Version: 01
+.
+This theme is public domain, free, and offered as is.
+.
+*/
+
+body {
+background: #111;
+color: #2d2;
+font-family: monospace;
+font-size: 1.5em;
+margin: 0 2em 2em 2em;
+}
+
+a {
+text-decoration: none;
+color: #1dbbbb;
+}
+
+a:hover {
+color: #f00;
+}
+
+#header {
+
+}
+
+#header h1 a {
+text-decoration: none;
+color: #2d2;
+}
+
+#header h1 a:hover {
+color: #fff;
+}
+
+#header input#s {
+background: #111;
+width: 300px;
+color: #2d2;
+border: 0;
+border-bottom: 1px solid #2d2;
+font-family: monospace;
+font-size: 0.9em;
+}
+
+#header input#searchsubmit {
+background: #111;
+color: #2d2;
+border: 1px solid #2d2;
+font-family: monospace;
+font-size: 0.9em;
+}
+
+#header input#searchsubmit:hover {
+background: #2d2;
+color: #111;
+}
+
+#content {
+float: left;
+width: 60%;
+word-wrap: break-word;
+}
+
+.time {
+color: #272;
+}
+
+.editlink a {
+color: #fff;
+background: #f00;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+.editlink a:hover {
+color: #f00;
+background: #fff;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+#sidebar {
+float: left;
+width: 20%;
+margin-left: 3%;
+}
+
+.pagenav {
+list-style-type: none;
+}
+
+#footer {
+clear: both;
+text-align: center;
+}
+
+#footer hr {
+border: 0;
+width: 85%;
+color: #222;
+background-color: #222;
+height: 3px;
+}
+
+#footer ul {
+list-style-type: none;
+}
+
+#footer ul li {
+display: inline;
+}
+
+#footer li:after {
+content: " ::";
+}
+
+#footer li:last-child:after {
+content: "";
+}
